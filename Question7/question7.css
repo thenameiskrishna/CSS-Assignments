@@ -1,0 +1,51 @@
+body{
+  background-color: aqua;
+}
+form {
+    width: 350px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: brown;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .checkbox-group {
+    margin-top: 10px;
+    color: black;
+  }
+  
+  input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    transition-duration: 0.3s;
+  }
+  .button2 {
+    background-color: white; 
+    color: black;
+  }
+  .button2:hover {
+    background-color: brown;
+    color: white;
+  }
